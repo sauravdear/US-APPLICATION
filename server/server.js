@@ -5,6 +5,7 @@ const session = require("express-session");
 const cookieParser = require("cookie-parser");
 const { connectDB } = require("./config/db.js");
 const authRoutes = require("./routes/auth.routes.js");
+const razorpay = require('razorpay');
 
 dotenv.config();
 
